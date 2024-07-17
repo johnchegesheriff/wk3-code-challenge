@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.sidebar {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.main {
+    width: 70%;
+    padding: 20px;
+}
+
+#movie-details {
+    text-align: center;
+}
+
+#poster {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+ul#films {
+    list-style: none;
+    padding: 0;
+}
+
+ul#films li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul#films li:hover {
+    background-color: #f0f0f0;
+}
+
+.film.item {
+    margin-bottom: 10px;
+}
+
+.sold-out {
+    color: red;
+    text-decoration: line-through;
+}
